@@ -1,0 +1,81 @@
+.IS:Wrap {
+    flex-wrap: wrap;
+}
+
+.IS:Nwrap {
+    flex-wrap: nowrap;
+}
+
+.IS:F {
+    display: flex;
+}
+
+.IS:G {
+    display: grid;
+}
+
+.IS:N {
+    display: None;
+}
+
+.IS:B {
+    display: block;
+}
+
+.IS:Abs {
+    position: absolute;
+}
+
+.IS:Fix {
+    position: fixed;
+}
+
+.IS:Rel {
+    position: relative;
+}
+
+.IS:Sti {
+    position: sticky;
+}
+
+
+
+.xxS:F_Cl {
+    flex-direction: column;
+}
+
+.xxS:F_Rw {
+    flex-direction: row;
+}
+
+.xxS:Vs {
+    visibility: visible;
+}
+
+.xxS:NVs {
+    visibility: hidden;
+}
+
+.xxS:HOf {
+    overflow: hidden;
+}
+
+.xxS:SOf {
+    overflow: scroll;
+}
+
+.xxS:VOf {
+    overflow: visible;
+}
+
+.xxS:FObjF {
+    object-fit: fill;
+}
+
+.xxS:CObjF {
+    object-fit: Cover;
+}
+
+.xxS:ConObjF {
+    object-fit: contain;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ice_screen_css",
+  "version": "0.0.1",
+  "description": "This is a Responsive Library that works like Tailwind, with a Debugging Classes, Small Naming, Fast Interpretation & Cool Fonts & Colors & Animations",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp bundleCss",
+    "watch": "gulp devWatch"
+  },
+  "author": "Jesus Velez Soto",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
