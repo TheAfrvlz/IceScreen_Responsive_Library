@@ -1,0 +1,103 @@
+
+@media (min-width: 1200px) {
+  :root {
+  }
+  
+    .G:Wrap {
+      flex-wrap: wrap;
+    }
+    .G:Nwrap {
+      flex-wrap: nowrap;
+    }
+  
+    .G:F {
+      display: flex;
+    }
+    .G:G {
+      display: grid;
+    }
+    .G:N {
+      display: None;
+    }
+    .G:B {
+      display: block;
+    }
+  
+    .G:Rel {
+      position: absolute;
+    }
+    .G:Fix {
+      position: fixed;
+    }
+    .G:Rel {
+      position: relative;
+    }
+    .G:Sti {
+      position: sticky;
+    }
+  
+    .G:vh10 {
+      height: 100vh;
+    }
+    .G:vh9 {
+      height: 90vh;
+    }
+    .G:vh8 {
+      height: 80vh;
+    }
+    .G:vh7 {
+      height: 70vh;
+    }
+    .G:vh6 {
+      height: 60vh;
+    }
+    .G:vh5 {
+      height: 50vh;
+    }
+    .G:vh4 {
+      height: 40vh;
+    }
+    .G:vh3 {
+      height: 30vh;
+    }
+    .G:vh2 {
+      height: 20vh;
+    }
+    .G:vh1 {
+      height: 10vh;
+    }
+  
+    
+    .G-vw10 {
+      width: 100vw;
+    }
+    .G-vw9 {
+      width: 90vw;
+    }
+    .G-vw8 {
+      width: 80vw;
+    }
+    .G-vw7 {
+      width: 70vw;
+    }
+    .G-vw6 {
+      width: 60vw;
+    }
+    .G-vw5 {
+      width: 50vw;
+    }
+    .G-vw4 {
+      width: 40vw;
+    }
+    .G-vw3 {
+      width: 30vw;
+    }
+    .G-vw2 {
+      width: 20vw;
+    }
+    .G-vw1 {
+      width: 10vw;
+    }
+  
+
+  }

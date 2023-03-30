@@ -1,81 +1,52 @@
-.IS:Wrap {
-    flex-wrap: wrap;
+.IS:wrap {
+  flex-wrap: wrap;
 }
 
-.IS:Nwrap {
-    flex-wrap: nowrap;
+.IS:nwrap {
+  flex-wrap: nowrap;
 }
 
-.IS:F {
-    display: flex;
+.IS:f {
+  display: flex;
 }
 
-.IS:G {
-    display: grid;
+.IS:g {
+  display: grid;
 }
 
-.IS:N {
-    display: None;
+.IS:n {
+  display: None;
 }
 
-.IS:B {
-    display: block;
+.IS:b {
+  display: block;
 }
 
-.IS:Abs {
-    position: absolute;
+.IS:abs {
+  position: absolute;
 }
 
-.IS:Fix {
-    position: fixed;
+.IS:fix {
+  position: fixed;
 }
 
-.IS:Rel {
-    position: relative;
+.IS:rel {
+  position: relative;
 }
 
-.IS:Sti {
-    position: sticky;
+.IS:sti {
+  position: sticky;
 }
 
-
-
-.xxS:F_Cl {
-    flex-direction: column;
+.IS:Rounded-50 {
+  border-radius: 50%;
 }
-
-.xxS:F_Rw {
-    flex-direction: row;
+.IS:Rounded-25 {
+  border-radius: 25%;
 }
-
-.xxS:Vs {
-    visibility: visible;
+.IS:Rounded-15 {
+  border-radius: 15px;
 }
-
-.xxS:NVs {
-    visibility: hidden;
-}
-
-.xxS:HOf {
-    overflow: hidden;
-}
-
-.xxS:SOf {
-    overflow: scroll;
-}
-
-.xxS:VOf {
-    overflow: visible;
-}
-
-.xxS:FObjF {
-    object-fit: fill;
-}
-
-.xxS:CObjF {
-    object-fit: Cover;
-}
-
-.xxS:ConObjF {
-    object-fit: contain;
+.IS:Rounded-5 {
+  border-radius: 5px;
 }

@@ -1,0 +1,101 @@
+
+@media (min-width: 990px) {
+  :root {
+  }
+    .M:Wrap {
+      flex-wrap: wrap;
+    }
+    .M:Nwrap {
+      flex-wrap: nowrap;
+    }
+  
+    .M:F {
+      display: flex;
+    }
+    .M:G {
+      display: grid;
+    }
+    .M:N {
+      display: None;
+    }
+    .M:B {
+      display: block;
+    }
+  
+    .M:Rel {
+      position: absolute;
+    }
+    .M:Fix {
+      position: fixed;
+    }
+    .M:Rel {
+      position: relative;
+    }
+    .M:Sti {
+      position: sticky;
+    }
+  
+    .M:vh10 {
+      height: 100vh;
+    }
+    .M:vh9 {
+      height: 90vh;
+    }
+    .M:vh8 {
+      height: 80vh;
+    }
+    .M:vh7 {
+      height: 70vh;
+    }
+    .M:vh6 {
+      height: 60vh;
+    }
+    .M:vh5 {
+      height: 50vh;
+    }
+    .M:vh4 {
+      height: 40vh;
+    }
+    .M:vh3 {
+      height: 30vh;
+    }
+    .M:vh2 {
+      height: 20vh;
+    }
+    .M:vh1 {
+      height: 10vh;
+    }
+  
+    
+    .M-vw10 {
+      width: 100vw;
+    }
+    .M-vw9 {
+      width: 90vw;
+    }
+    .M-vw8 {
+      width: 80vw;
+    }
+    .M-vw7 {
+      width: 70vw;
+    }
+    .M-vw6 {
+      width: 60vw;
+    }
+    .M-vw5 {
+      width: 50vw;
+    }
+    .M-vw4 {
+      width: 40vw;
+    }
+    .M-vw3 {
+      width: 30vw;
+    }
+    .M-vw2 {
+      width: 20vw;
+    }
+    .M-vw1 {
+      width: 10vw;
+    }
+       
+  }

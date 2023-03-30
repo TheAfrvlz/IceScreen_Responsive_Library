@@ -1,0 +1,102 @@
+
+@media (min-width: 1900px) {
+  :root {
+  }
+    .xxG:Wrap {
+      flex-wrap: wrap;
+    }
+    .xxG:Nwrap {
+      flex-wrap: nowrap;
+    }
+  
+    .xxG:F {
+      display: flex;
+    }
+    .xxG:G {
+      display: grid;
+    }
+    .xxG:N {
+      display: None;
+    }
+    .xxG:B {
+      display: block;
+    }
+  
+    .xxG:Rel {
+      position: absolute;
+    }
+    .xxG:Fix {
+      position: fixed;
+    }
+    .xxG:Rel {
+      position: relative;
+    }
+    .xxG:Sti {
+      position: sticky;
+    }
+  
+    .xxG:vh10 {
+      height: 100vh;
+    }
+    .xxG:vh9 {
+      height: 90vh;
+    }
+    .xxG:vh8 {
+      height: 80vh;
+    }
+    .xxG:vh7 {
+      height: 70vh;
+    }
+    .xxG:vh6 {
+      height: 60vh;
+    }
+    .xxG:vh5 {
+      height: 50vh;
+    }
+    .xxG:vh4 {
+      height: 40vh;
+    }
+    .xxG:vh3 {
+      height: 30vh;
+    }
+    .xxG:vh2 {
+      height: 20vh;
+    }
+    .xxG:vh1 {
+      height: 10vh;
+    }
+  
+    
+    .xxG-vw10 {
+      width: 100vw;
+    }
+    .xxG-vw9 {
+      width: 90vw;
+    }
+    .xxG-vw8 {
+      width: 80vw;
+    }
+    .xxG-vw7 {
+      width: 70vw;
+    }
+    .xxG-vw6 {
+      width: 60vw;
+    }
+    .xxG-vw5 {
+      width: 50vw;
+    }
+    .xxG-vw4 {
+      width: 40vw;
+    }
+    .xxG-vw3 {
+      width: 30vw;
+    }
+    .xxG-vw2 {
+      width: 20vw;
+    }
+    .xxG-vw1 {
+      width: 10vw;
+    }
+    
+
+  }
