@@ -2,16 +2,17 @@
 @media (min-width: 1200px) {
   :root {
   }
-  
+
     .G:Wrap {
       flex-wrap: wrap;
+      flex-direction: column;
     }
     .G:Nwrap {
       flex-wrap: nowrap;
     }
   
     .G:F {
-      display: flex;
+     display: flex;
     }
     .G:G {
       display: grid;
