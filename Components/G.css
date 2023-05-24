@@ -2,7 +2,6 @@
 @media (min-width: 1200px) {
   :root {
   }
-
     .G:Wrap {
       flex-wrap: wrap;
       flex-direction: column;
@@ -11,29 +10,29 @@
       flex-wrap: nowrap;
     }
   
-    .G:F {
+    .G:D_F {
      display: flex;
     }
-    .G:G {
+    .G:D_G {
       display: grid;
     }
-    .G:N {
+    .G:D_N {
       display: None;
     }
-    .G:B {
+    .G:D_B {
       display: block;
     }
   
-    .G:Rel {
+    .G:P_Rel {
       position: absolute;
     }
-    .G:Fix {
+    .G:P_Fix {
       position: fixed;
     }
-    .G:Rel {
+    .G:P_Rel {
       position: relative;
     }
-    .G:Sti {
+    .G:P_Sti {
       position: sticky;
     }
   
@@ -67,38 +66,34 @@
     .G:vh1 {
       height: 10vh;
     }
-  
-    
-    .G-vw10 {
+    .G:vw10 {
       width: 100vw;
     }
-    .G-vw9 {
+    .G:vw9 {
       width: 90vw;
     }
-    .G-vw8 {
+    .G:vw8 {
       width: 80vw;
     }
-    .G-vw7 {
+    .G:vw7 {
       width: 70vw;
     }
-    .G-vw6 {
+    .G:vw6 {
       width: 60vw;
     }
-    .G-vw5 {
+    .G:vw5 {
       width: 50vw;
     }
-    .G-vw4 {
+    .G:vw4 {
       width: 40vw;
     }
-    .G-vw3 {
+    .G:vw3 {
       width: 30vw;
     }
-    .G-vw2 {
+    .G:vw2 {
       width: 20vw;
     }
-    .G-vw1 {
+    .G:vw1 {
       width: 10vw;
     }
-  
-
   }

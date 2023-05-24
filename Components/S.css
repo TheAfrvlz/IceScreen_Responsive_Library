@@ -1,36 +1,37 @@
 @media (min-width: 768px) {
   :root {
   }
-  .S:wrap {
+  .S:Wrap {
     flex-wrap: wrap;
+    flex-direction: column;
   }
-  .S:nwrap {
+  .S:Nwrap {
     flex-wrap: nowrap;
   }
 
-  .S:f {
-    display: flex;
+  .S:D_F {
+   display: flex;
   }
-  .S:g {
+  .S:D_G {
     display: grid;
   }
-  .S:n {
+  .S:D_N {
     display: None;
   }
-  .S:b {
+  .S:D_B {
     display: block;
   }
 
-  .S:rel {
+  .S:P_Rel {
     position: absolute;
   }
-  .S:fix {
+  .S:P_Fix {
     position: fixed;
   }
-  .S:rel {
+  .S:P_Rel {
     position: relative;
   }
-  .S:sti {
+  .S:P_Sti {
     position: sticky;
   }
 
@@ -64,37 +65,35 @@
   .S:vh1 {
     height: 10vh;
   }
-
-  .S-vw10 {
+  .S:vw10 {
     width: 100vw;
   }
-  .S-vw9 {
+  .S:vw9 {
     width: 90vw;
   }
-  .S-vw8 {
+  .S:vw8 {
     width: 80vw;
   }
-  .S-vw7 {
+  .S:vw7 {
     width: 70vw;
   }
-  .S-vw6 {
+  .S:vw6 {
     width: 60vw;
   }
-  .S-vw5 {
+  .S:vw5 {
     width: 50vw;
   }
-  .S-vw4 {
+  .S:vw4 {
     width: 40vw;
   }
-  .S-vw3 {
+  .S:vw3 {
     width: 30vw;
   }
-  .S-vw2 {
+  .S:vw2 {
     width: 20vw;
   }
-  .S-vw1 {
+  .S:vw1 {
     width: 10vw;
   }
-
   
 }
