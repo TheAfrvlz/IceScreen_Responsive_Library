@@ -1,0 +1,18 @@
+.cFlex {
+  &_Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Centrar con flex en horizontal */
+  &_Center_H {
+    display: flex;
+    justify-content: center;
+  }
+  /* Centrar con flex en vertical */
+  &_Center_V {
+    min-height: var(--Height);
+    display: flex;
+    align-items: center;
+  }
+}

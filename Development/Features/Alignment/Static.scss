@@ -1,0 +1,44 @@
+.cSta_{
+
+    /* Centrar en clásica 1 etiqueta en horizontal */
+    &:H{
+        position: static;
+    }
+    &:H_C{
+        width:40%;
+        margin: 0 auto;
+    }
+    /* Centrar en clásica +1 (muchas) etiquetas en horizontal*/
+    &:H::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    &:H_Cs{
+        width: calc( 25% - 2em );
+        float:left;
+        margin: 0 1em;
+    }
+    /* Centrar en clásica 1 etiqueta en vertical */
+    &:V{
+        padding: var(--Pad) 0;
+    }
+    &:V_C{
+        width:40%;
+    } 
+    /* Centrar en clásica +1 (muchas) etiquetas en vertical*/
+    &:V{
+        padding: var(--Pad) 0;
+    }
+    &:V::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    &:V_Cs{
+        width:calc( 25% - 2em );
+        float:left;
+        margin: 0 1em;
+    } 
+
+}

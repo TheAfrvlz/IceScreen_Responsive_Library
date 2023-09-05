@@ -1,0 +1,11 @@
+.cSti{
+    &{
+        position: sticky;
+    }
+    &_onTop{
+        top: 0;
+    }
+    &_onBottom{
+        bottom: 0;
+    }
+}

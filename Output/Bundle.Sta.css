@@ -1,0 +1,92 @@
+.SScreen:wraped {
+  flex-wrap: wrap;
+}
+.SScreen:nwrap {
+  flex-wrap: nowrap;
+}
+.SScreen:f {
+  display: flex;
+}
+.SScreen:g {
+  display: grid;
+}
+.SScreen:g {
+  display: None;
+}
+.SScreen:b {
+  display: block;
+}
+.SScreen:rel {
+  position: absolute;
+}
+.SScreen:fix {
+  position: fixed;
+}
+.SScreen:rel {
+  position: relative;
+}
+.SScreen:sti {
+  position: sticky;
+}
+.SScreen:vh10 {
+  height: 100vh;
+}
+.SScreen:vh9 {
+  height: 90vh;
+}
+.SScreen:vh8 {
+  height: 80vh;
+}
+.SScreen:vh7 {
+  height: 70vh;
+}
+.SScreen:vh6 {
+  height: 60vh;
+}
+.SScreen:vh5 {
+  height: 50vh;
+}
+.SScreen:vh4 {
+  height: 40vh;
+}
+.SScreen:vh3 {
+  height: 30vh;
+}
+.SScreen:vh2 {
+  height: 20vh;
+}
+.SScreen:vh1 {
+  height: 10vh;
+}
+.SScreen-vw10 {
+  width: 100vw;
+}
+.SScreen-vw9 {
+  width: 90vw;
+}
+.SScreen-vw8 {
+  width: 80vw;
+}
+.SScreen-vw7 {
+  width: 70vw;
+}
+.SScreen-vw6 {
+  width: 60vw;
+}
+.SScreen-vw5 {
+  width: 50vw;
+}
+.SScreen-vw4 {
+  width: 40vw;
+}
+.SScreen-vw3 {
+  width: 30vw;
+}
+.SScreen-vw2 {
+  width: 20vw;
+}
+.SScreen-vw1 {
+  width: 10vw;
+}
+
+/*# sourceMappingURL=Bundle.Sta.css.map */

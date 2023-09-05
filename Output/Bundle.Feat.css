@@ -1,0 +1,236 @@
+@charset "UTF-8";
+.cAbs {
+  /* Centrar en vertical con margin con pixeles */
+  /* Centrar en horizontal con calc() con píxeles */
+  /* Centrar en vertical con calc() con pixeles */
+  /* Centrar en horizontal con porcentaje */
+  /* Centrar en vertical con porcentaje */
+  /* Centrar en horizontal con transform */
+  /* Centrar en vertical con transform */
+}
+.cAbs {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora8 .item {
+  width: 5em;
+  height: 5em;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.5em;
+}
+.cAbs .contenedora9 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora9 .item {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+}
+.cAbs .contenedora10 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora10 .item {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: calc(50% - 100px);
+}
+.cAbs .contenedora11 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora11 .item {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: calc(50% - 100px);
+}
+.cAbs .contenedora12 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora12 .item {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  left: 25%;
+}
+.cAbs .contenedora13 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora13 .item {
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+}
+.cAbs .contenedora14 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora14 .item {
+  width: 10em;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cAbs .contenedora15 {
+  min-height: 30vh;
+  position: relative;
+}
+.cAbs .contenedora15 .item {
+  width: 200px;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.cFlex {
+  /* Centrar con flex en horizontal */
+  /* Centrar con flex en vertical */
+}
+.cFlex_Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cFlex_Center_H {
+  display: flex;
+  justify-content: center;
+}
+.cFlex_Center_V {
+  min-height: var(--Height);
+  display: flex;
+  align-items: center;
+}
+
+.cRel_ {
+  /* Centrar en clásica 1 etiqueta en horizontal */
+  /* Centrar en clásica +1 (muchas) etiquetas en horizontal*/
+  /* Centrar en clásica 1 etiqueta en vertical */
+  /* Centrar en clásica +1 (muchas) etiquetas en vertical*/
+}
+.cRel_:h {
+  position: relative;
+}
+.cRel_:h_c {
+  width: 40%;
+  margin: 0 auto;
+}
+.cRel_:h::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cRel_:h_cs {
+  width: calc(25% - 2em);
+  float: left;
+  margin: 0 1em;
+}
+.cRel_:v {
+  padding: 5em 0;
+}
+.cRel_:v_c {
+  width: 40%;
+}
+.cRel_:v {
+  padding: 5em 0;
+}
+.cRel_:v::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cRel_:v_cs {
+  width: calc(25% - 2em);
+  float: left;
+  margin: 0 1em;
+}
+
+.cSta_ {
+  /* Centrar en clásica 1 etiqueta en horizontal */
+  /* Centrar en clásica +1 (muchas) etiquetas en horizontal*/
+  /* Centrar en clásica 1 etiqueta en vertical */
+  /* Centrar en clásica +1 (muchas) etiquetas en vertical*/
+}
+.cSta_:H {
+  position: static;
+}
+.cSta_:H_C {
+  width: 40%;
+  margin: 0 auto;
+}
+.cSta_:H::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cSta_:H_Cs {
+  width: calc(25% - 2em);
+  float: left;
+  margin: 0 1em;
+}
+.cSta_:V {
+  padding: var(--Pad) 0;
+}
+.cSta_:V_C {
+  width: 40%;
+}
+.cSta_:V {
+  padding: var(--Pad) 0;
+}
+.cSta_:V::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cSta_:V_Cs {
+  width: calc(25% - 2em);
+  float: left;
+  margin: 0 1em;
+}
+
+.cSti {
+  position: sticky;
+}
+.cSti_onTop {
+  top: 0;
+}
+.cSti_onBottom {
+  bottom: 0;
+}
+
+.Rotate {
+  --Rotation: 34deg;
+}
+.Rotate_Center {
+  transform-origin: center;
+  transform: rotate(--Rotation);
+}
+.Rotate_TopLeft {
+  transform-origin: top left;
+  transform: rotate(--Rotation);
+}
+.Rotate_TopRight {
+  transform-origin: top right;
+  transform: rotate(--Rotation);
+}
+.Rotate_BottomLeft {
+  transform-origin: bottom left;
+  transform: rotate(--Rotation);
+}
+.Rotate_RightLeft {
+  transform-origin: bottom right;
+  transform: rotate(--Rotation);
+}
+
+/*# sourceMappingURL=Bundle.Feat.css.map */

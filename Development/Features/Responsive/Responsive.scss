@@ -1,0 +1,98 @@
+@mixin Responsive($width) {
+  @media (min-width: $width) {
+    &:wrap {
+      flex-wrap: wrap;
+    }
+    &:nwrap {
+      flex-wrap: nowrap;
+    }
+    &:F{
+      display: flex;
+    }
+    &:G {
+      display: grid;
+    }
+    &:G{
+      display: None;
+    }
+    &:B {
+      display: block;
+    }
+
+    &:rel{
+      position: absolute;
+    }
+    &:fix{
+      position: fixed;
+    }
+    &:rel{
+      position: relative;
+    }
+    
+    &:sti {
+      position: sticky;
+    }
+
+    &:vh10 {
+      height: 100vh;
+    }
+    &:vh9 {
+      height: 90vh;
+    }
+    &:vh8 {
+      height: 80vh;
+    }
+    &:vh7 {
+      height: 70vh;
+    }
+    &:vh6 {
+      height: 60vh;
+    }
+    &:vh5 {
+      height: 50vh;
+    }
+    &:vh4 {
+      height: 40vh;
+    }
+    &:vh3 {
+      height: 30vh;
+    }
+    &:vh2 {
+      height: 20vh;
+    }
+    &:vh1 {
+      height: 10vh;
+    }
+
+    &-vw10 {
+      width: 100vw;
+    }
+    &-vw9 {
+      width: 90vw;
+    }
+    &-vw8 {
+      width: 80vw;
+    }
+    &-vw7 {
+      width: 70vw;
+    }
+    &-vw6 {
+      width: 60vw;
+    }
+    &-vw5 {
+      width: 50vw;
+    }
+    &-vw4 {
+      width: 40vw;
+    }
+    &-vw3 {
+      width: 30vw;
+    }
+    &-vw2 {
+      width: 20vw;
+    }
+    &-vw1 {
+      width: 10vw;
+    }
+  }
+}
