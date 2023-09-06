@@ -1,5 +1,5 @@
 {
-  "name": "AdagIO_IceScreen",
+  "name": "adagio_icescreen",
   "version": "0.0.2",
   "description": "This is a Responsive Library that works like Tailwind, with a Debugging Classes, Small Naming, Fast Interpretation & Cool Fonts & Colors & Animations",
   "main": "index.js",
