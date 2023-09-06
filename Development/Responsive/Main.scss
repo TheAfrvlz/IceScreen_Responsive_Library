@@ -1,13 +1,14 @@
 
 @import "../Features/Responsive/Responsive.scss";
 
-$Media-Gap: 70px;
+$Media-Gap: 130px;
 
 $responsiveClasses: (
   xL: 1900px,
   L: 19px,
   M: 12px,
-  S: 12px
+  S: 12px,
+  xS:12px
 );
 
 @each $class, $width in $responsiveClasses {
@@ -17,18 +18,31 @@ $responsiveClasses: (
 }
 
 @each $class, $width in $responsiveClasses {
-  $min-width: $width - $Media-Gap;
-  $max-width: $width + $Media-Gap;
-
-  @media screen and (min-width: #{$min-width}) and (max-width: #{$max-width}) {
-    .#{$class}:OnBlock {
-      display: block;
-    }
-    .#{$class}:OnFlex {
+  $minInvalid: $width - $Media-Gap - 1px;
+  $minWidth: $width - $Media-Gap;
+  $maxWidth: $width + $Media-Gap;
+  $maxInvalid: $width + $Media-Gap -1px;
+  
+  @media screen  and (min-width: $minWidth) and (max-width:$maxWidth){
+    .#{$class}:OnFlex{
       display: flex;
+    } 
+    .#{$class}:OnGrid{
+      display: grid;
+    } 
+    .#{$class}:OnBlock{
+      display: block;
+    } 
+    .#{$class}:OnInline{
+      display: inline;
+    } 
+  } 
+
+  
+  @media screen  and (max-width: $minInvalid) and (min-width:$maxInvalid){
+    .#{$class}:Off{
+      @include Responsive($width);
     }
-    .#{$class}:Off {
-      display: none;
-    }
-  }
+  } 
+  
 }

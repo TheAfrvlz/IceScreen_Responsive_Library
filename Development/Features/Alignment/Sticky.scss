@@ -2,10 +2,16 @@
     &{
         position: sticky;
     }
-    &_onTop{
+    &_onT{
         top: 0;
     }
-    &_onBottom{
+    &_onB{
         bottom: 0;
+    }
+    &_onL{
+        left: 0;
+    }
+    &_onR{
+        right: 0;
     }
 }

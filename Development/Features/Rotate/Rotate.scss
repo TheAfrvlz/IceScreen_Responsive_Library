@@ -2,27 +2,27 @@
   & {
     --Rotation: 34deg;
   }
-  &_Center {
+  &_C{
     transform-origin: center;
     transform: rotate(--Rotation);
   }
 
-  &_TopLeft {
+  &_TL{
     transform-origin: top left;
     transform: rotate(--Rotation);
   }
 
-  &_TopRight {
+  &_TR{
      transform-origin: top right;
     transform: rotate(--Rotation);
   }
 
-  &_BottomLeft {
+  &_BL{
     transform-origin: bottom left;
     transform: rotate(--Rotation);
   }
 
-  &_RightLeft {
+  &_RL {
     transform-origin: bottom right;
     transform: rotate(--Rotation);
   }
