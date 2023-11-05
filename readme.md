@@ -1,5 +1,5 @@
 
-![IceScreen CSS Logo](logo.png "IceScreen CSS Library Logo")
+![IceScreen CSS Logo](https://raw.githubusercontent.com/TheAfrvlz/IceScreen_Responsive_Library/main/Logo.png "IceScreen CSS Library Logo")
 
 # AdagIO - IceScreen Library
 
