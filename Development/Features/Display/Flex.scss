@@ -1,0 +1,62 @@
+$FJContent: (
+  Start: flex-start,
+  End: flex-end,
+  Even: space-evenly,
+  Around: space-around,
+  Between: space-between, // Added a space after the comma
+  Stret: stretch
+);
+
+$FAContent: (
+  Start: flex-start,
+  End: flex-end,
+  Even: space-evenly,
+  Around: space-around,
+  Between: space-between, // Added a space after the comma
+  Stret: stretch
+);
+
+$FAItems: (
+  Start: flex-start,
+  End: flex-end,
+  Stret: stretch,
+  BL: baseline,
+  FCenter: center
+);
+
+
+@mixin FStyles($FAItems, $FAContent,$FJContent) {
+  &_C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_H {
+    display: flex;
+    justify-content:center;
+  }
+
+  @each $class, $align in $FAContent {
+    &_H.#{$class} {
+      align-Content:#{$align};
+    }
+  }
+
+  @each $class, $align in $FAItems {
+    &_H.#{$class} {
+      align-items:#{$align};
+    }
+  }
+
+  @each $class, $align in $FJContent {
+    &_V.#{$class} {
+      justify-content:#{$align};
+    }
+  }
+
+  &_V {
+    min-height: var(--Height);
+    display: flex;
+    align-items: center;
+  }
+}

@@ -4,10 +4,10 @@
   "description": "This is a Responsive Library that works like Tailwind, with a Debugging Classes, Small Naming, Fast Interpretation & Cool Fonts & Colors & Animations",
   "main": "index.js",
   "scripts": {
-    "Static": "sass Development/Static/Main.scss Output/Bundle.Sta.css",
-    "Responsive": "sass Development/Responsive/Main.scss Output/Bundle.Res.css",
-    "Full": "sass Development/Complete/Main.scss Output/Bundle.Com.css",
-    "Feat": "sass Development/Feature/Main.scss Output/Bundle.Feat.css"
+    "Static": "sass Development/Static/Main.scss Output/Bundle.Sta.css --style=compressed",
+    "Responsive": "sass Development/Responsive/Main.scss Output/Bundle.Res.css ",
+    "Full": "sass Development/Complete/Main.scss Output/Bundle.Com.css --style=compressed",
+    "Feat": "sass Development/Feature/Main.scss Output/Bundle.Feat.css --style=compressed"
   },
   "author": "Jesus Velez Soto",
   "license": "ISC",
@@ -15,5 +15,6 @@
     "postcss-selector-matches": "^4.0.0"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
   }
 }

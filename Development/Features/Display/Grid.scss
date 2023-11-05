@@ -1,0 +1,46 @@
+// Define a mixin for the grid styles
+@mixin GStyles($GContent, $GItems) {
+  display: grid;
+
+  @each $class, $align in $GContent {
+    &._H-#{$class} {
+      align-content: $align;
+    }
+  }
+
+  @each $class, $align in $GContent {
+    &._V-#{$class} {
+      justify-content: $align;
+    }
+  }
+
+  @each $class, $align in $GItems {
+    &._H-#{$class} {
+      align-items: $align;
+    }
+  }
+
+  @each $class, $align in $GItems {
+    &._V-#{$class} {
+      justify-items: $align;
+    }
+  }
+}
+
+// Usage of the mixin with your variables
+$GContent: (
+  CStart: flex-start,
+  CEnd: flex-end,
+  CEven: space-evenly,
+  CAround: space-around,
+  CBetween: space-between,
+  CStret: stretch,
+  CCenter: center
+);
+
+$GItems: (
+  IStart: flex-start,
+  IEnd: flex-end,
+  IStrech: stretch,
+  ICenter: center,
+);

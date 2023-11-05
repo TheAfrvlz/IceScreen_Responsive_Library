@@ -1,0 +1,28 @@
+.pSti{
+    & {
+    position: relative;
+  }
+  &_onTC {
+    position: sticky;
+    top: 0;
+  }
+  &_onBC {
+    position: sticky;
+    bottom: 0;
+  }
+  &_onLC {
+    position: sticky;
+    left: 0;
+  }
+  &_onRC {
+    position: sticky;
+    right: 0;
+  }
+  &_onCC {
+    position: sticky;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}

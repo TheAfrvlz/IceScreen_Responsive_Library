@@ -1,0 +1,25 @@
+/* Esto ocultará las barras de desplazamiento en todo el documento */
+.HideSBarHTML{
+    scrollbar-width: thin; /* Para Firefox */
+    scrollbar-color: transparent transparent; /* También para Firefox */
+}
+
+.HideSBarBody {
+    -ms-overflow-style: none;  /* Para Internet Explorer y Edge */
+    scrollbar-width: none;  /* Para Firefox */
+}
+
+/* Para Chrome, Safari y Edge */
+.HideSBarBody::-webkit-scrollbar {
+    display: none;
+}
+
+.HideSBarLocal{
+    -ms-overflow-style: none;  /* Para Internet Explorer y Edge */
+    scrollbar-width: none;  /* Para Firefox */
+}
+
+.HideSBarLocal::-webkit-scrollbar {
+    display: none;  /* Para Chrome, Safari y Edge */
+}
+

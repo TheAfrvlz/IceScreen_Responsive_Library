@@ -1,48 +1,47 @@
-
+@import "../Features/Display/Grid.scss";
+@import "../Features/Display/Flex.scss";
 @import "../Features/Responsive/Responsive.scss";
 
 $Media-Gap: 130px;
 
 $responsiveClasses: (
   xL: 1900px,
-  L: 19px,
-  M: 12px,
-  S: 12px,
-  xS:12px
+  L: 239px,
+  M: 312px,
+  S: 312px,
+  xS: 312px,
 );
 
-@each $class, $width in $responsiveClasses {
-  .#{$class} {
-    @include Responsive($width);
-  }
-}
 
 @each $class, $width in $responsiveClasses {
-  $minInvalid: $width - $Media-Gap - 1px;
+  $minInvalid: ($width - $Media-Gap - 1px);
   $minWidth: $width - $Media-Gap;
   $maxWidth: $width + $Media-Gap;
-  $maxInvalid: $width + $Media-Gap -1px;
-  
-  @media screen  and (min-width: $minWidth) and (max-width:$maxWidth){
-    .#{$class}:OnFlex{
-      display: flex;
-    } 
-    .#{$class}:OnGrid{
-      display: grid;
-    } 
-    .#{$class}:OnBlock{
-      display: block;
-    } 
-    .#{$class}:OnInline{
-      display: inline;
-    } 
-  } 
+  $maxInvalid: ($width + $Media-Gap - 1px);
 
-  
-  @media screen  and (max-width: $minInvalid) and (min-width:$maxInvalid){
-    .#{$class}:Off{
-      @include Responsive($width);
+  @media screen and (min-width: $minWidth) and (max-width: $maxWidth) {
+    .#{$class}\:dB {
+      display: block;
     }
-  } 
-  
+    .#{$class}\:dI {
+      display: inline;
+    }
+    .#{$class} {
+      @include Responsive();
+    }
+    .#{$class}\:dG {
+      @include GStyles($GContent, $GItems);
+      
+    }
+    .#{$class}\:dF {
+      @include FStyles($FAItems, $FAContent,$FJContent);
+    }
+    
+  }
+
+  @media screen and (max-width: $minInvalid) and (min-width: $maxInvalid) {
+    .#{$class}\:dN {
+      display: none;
+    }
+  }
 }

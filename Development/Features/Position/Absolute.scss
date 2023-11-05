@@ -1,0 +1,28 @@
+.pAbs {
+  & {
+    position: relative;
+  }
+  &_onTC {
+    position: absolute;
+    top: 0;
+  }
+  &_onBC {
+    position: absolute;
+    bottom: 0;
+  }
+  &_onLC {
+    position: absolute;
+    left: 0;
+  }
+  &_onRC {
+    position: absolute;
+    right: 0;
+  }
+  &_onCC {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}

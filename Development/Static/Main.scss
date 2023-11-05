@@ -1,96 +1,105 @@
 .SScreen {
-  &:wraped {
+  &\:wraped {
     flex-wrap: wrap;
   }
-  &:nwrap {
+  &\:nwrap {
     flex-wrap: nowrap;
   }
-  &:f {
+  &\:f {
     display: flex;
   }
-  &:g {
+  &\:g {
     display: grid;
   }
-  &:g {
+  &\:g {
     display: None;
   }
-  &:b {
+  &\:b {
     display: block;
   }
 
-  &:rel {
+  &\:rel {
     position: absolute;
   }
-  &:fix {
+  &\:fix {
     position: fixed;
   }
-  &:rel {
+  &\:rel {
     position: relative;
   }
 
-  &:sti {
+  &\:sti {
     position: sticky;
   }
 
-  &:vh10 {
+  &\:vh10 {
     height: 100vh;
   }
-  &:vh9 {
+  &\:vh9 {
     height: 90vh;
   }
-  &:vh8 {
+  &\:vh8 {
     height: 80vh;
   }
-  &:vh7 {
+  &\:vh7 {
     height: 70vh;
   }
-  &:vh6 {
+  &\:vh6 {
     height: 60vh;
   }
-  &:vh5 {
+  &\:vh5 {
     height: 50vh;
   }
-  &:vh4 {
+  &\:vh4 {
     height: 40vh;
   }
-  &:vh3 {
+  &\:vh3 {
     height: 30vh;
   }
-  &:vh2 {
+  &\:vh2 {
     height: 20vh;
   }
-  &:vh1 {
+  &\:vh1 {
     height: 10vh;
   }
 
-  &-vw10 {
+  &\:vw10 {
     width: 100vw;
   }
-  &-vw9 {
+  &\:vw9 {
     width: 90vw;
   }
-  &-vw8 {
+  &\:vw8 {
     width: 80vw;
   }
-  &-vw7 {
+  &\:vw7 {
     width: 70vw;
   }
-  &-vw6 {
+  &\:vw6 {
     width: 60vw;
   }
-  &-vw5 {
+  &\:vw5 {
     width: 50vw;
   }
-  &-vw4 {
+  &\:vw4 {
     width: 40vw;
   }
-  &-vw3 {
+  &\:vw3 {
     width: 30vw;
   }
-  &-vw2 {
+  &\:vw2 {
     width: 20vw;
   }
-  &-vw1 {
+  &\:vw1 {
     width: 10vw;
   }
+
+  @import "../Features/Display/Grid.scss";
+  @import "../Features/Display/Flex.scss";
+
+  @import "../Features/Position/Absolute.scss";
+  @import "../Features/Position/Relative.scss";
+  @import "../Features/Position/Static.scss";
+  @import "../Features/Position/Sticky.scss";
+
 }
